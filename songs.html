@@ -5,12 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Who's SPYAIR - Songs</title>
     <link rel="stylesheet" href="css/navigaitionStyle.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #333231;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <div class="navigation" id="home"><h2><b>Who's SPYAIR</b></h2></div>
-    <div class="navigation" id="songs"><h3>Songs</h3></div>
-    <div class="navigation" id="history"><h3>History</h3></div>
-    <div class="navigation" id="concerts"><h3>Concerts</h3></div>
-    <div class="navigation" id="login"><h3>Login</h3></div>
+    <header>
+        <div class="navigation" id="home"><h2><b><a href="http://127.0.0.1:5500/home.html">Who's SPYAIR</a></b></h2></div>
+        <div class="navigation" id="songs"><h2><a href="http://127.0.0.1:5500/songs.html">Songs</a></h2></div>
+        <div class="navigation" id="history"><h2><a href="http://127.0.0.1:5500/histoty.html">History</a></h2></div>
+        <div class="navigation" id="concerts"><h2><a href="http://127.0.0.1:5500/concerts.html">Concerts</a></h2></div>
+        <div class="navigation" id="login"><h2><a href="http://127.0.0.1:5500/login.html">Login</a></   h2></div>
+    </header>
+    <main>
+        <div class="contentHome" id="songs">
+            <div id="title"><h2>노래 목록</h2></div>
+            <hr>
+            <table>
+                <tr>
+                    <th>노래 제목</th>
+                    <th>발매일</th>
+                    <th>비고</th>
+                </tr>
+                <tr>
+                    <td>サムライハート/Some Like It Heart</td>
+                    <td>2011.06.08</td>
+                    <td>TV 애니메이션 은혼 17번째 엔딩 테마</td>
+                </tr>
+                <tr>
+                    <td>サクラミツツキ/벚꽃만월</td>
+                    <td>2013.03.13</td>
+                    <td>TV 애니메이션 은혼 2기 연장전 2쿨(13기) 오프닝 테마</td>
+                </tr>
+                <tr>
+                    <td>イマジネーション/Imagination</td>
+                    <td>2014.04.30</td>
+                    <td>TV 애니메이션 하이큐!! 1기 1쿨 오프닝 테마</td>
+                </tr>
+                <tr>
+                    <td>アイム・ア・ビリーバー/I'm a Believer</td>
+                    <td>2015.10.21</td>
+                    <td>TV 애니메이션 하이큐!! 2기 1쿨 오프닝 테마</td>
+                </tr>
+                <tr>
+                    <td>オレンジ/Orange</td>
+                    <td>2024.02.17</td>
+                    <td>극장판 하이큐!! 쓰레기장의 결전 주제가</td>
+                </tr>
+                <tr>
+                    <td>イマジネーション/Imagination</td>
+                    <td>2024.02.17</td>
+                    <td>극장판 하이큐!! 쓰레기장의 결전 오프닝 테마</td>
+                </tr>
+                <tr>
+                    <td>ジャパニケーション/Japanication</td>
+                    <td>2009.04.15</td>
+                    <td>자주 제작 싱글</td>
+                </tr>
+            </table>
+        </div>
+    </main>
 </body>
 </html>
