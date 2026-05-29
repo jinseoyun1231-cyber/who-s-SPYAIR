@@ -13,6 +13,7 @@ a {
 }
 body {
     background-image: url("../images/spyair.jpeg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, sans-serif;
@@ -36,7 +37,14 @@ body {
     padding: 20px;
     width: 100px;
 }
-
-main {
-    margin-top: 80px;
+footer {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+#footericon {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 5px;
 }
