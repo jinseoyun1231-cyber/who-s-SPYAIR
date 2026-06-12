@@ -10,10 +10,28 @@
         text-align: center;
       }
       img {
-        width: 500px;
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+      }
+      .logo {
+        text-align: center;
+        img {
+          width: 500px;
+        }
       }
       .clearfix {
         clear: both; /* left 걸린 걸 초기화 */
+      }
+      .hitSongs {
+        float: left;
+        text-align: center;
+        width: 300px;
+        height: 250px;
+        background-color: rgba(51, 50, 49, 0.8);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 50px;
       }
     </style>
   </head>
@@ -44,19 +62,38 @@
       <main>
         <div id="title"><h2>홈</h2></div>
         <hr />
-        <div style="text-align: center">
+        <div class="logo">
           <img src="images/logo.png" alt="SPYAIR Logo" />
         </div>
-        <p>
-          SPYWARE(스파이웨어)라고 하는 컴퓨터 바이러스인데, 그 어감에 끌려
-          자신들의 밴드명을 검색하면 한 방에 자동검색완성 단어로 나올 수 있도록
-          살짝 변형을 가해 "SPYAIR(스파이에어)"가 되었다.
-        </p>
-        <p>데뷔일: 2007년 4월 18일</p>
-        <p>장르: 록, 팝 록, 얼터너티브 록</p>
-        <p>활동 기간: 2005년 ~ 현재</p>
-        <p>소속사: SME Records</p>
+
+        <h2>대표곡</h2>
+        <div class="hitSongs">
+          <a href="http://127.0.0.1:5500/songs/someLikeItHeart.html">
+            <h4>サムライハート(Some Like It Heart!!)</h4>
+            <img src="images/rockInTheWorld.png" alt="Some Like It Heart!!" />
+          </a>
+        </div>
+        <div class="hitSongs">
+          <a href="http://127.0.0.1:5500/songs/orange.html">
+            <h4>オレンジ(Orange)</h4>
+            <img src="images/orenge.png" alt="Orange" />
+          </a>
+        </div>
+        <div class="hitSongs">
+          <a href="http://127.0.0.1:5500/songs/sakuramitsutsuki.html">
+            <h4>サクラミツツキ(벚꽃만월)</h4>
+            <img src="images/sakuramitsutsuki.png" alt="sakuramitsutsuki" />
+          </a>
+        </div>
+        <div class="hitSongs">
+          <a href="http://127.0.0.1:5500/songs/imagination.html">
+            <h4>イマジネーション(Imagination)</h4>
+            <img src="images/imagination.png" alt="Imagination" />
+          </a>
+        </div>
+        <div class="clearfix"></div>
       </main>
+
       <hr />
       <footer>
         <a href="https://www.youtube.com/@spyairSMEJ">
