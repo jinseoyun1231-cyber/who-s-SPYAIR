@@ -10,18 +10,10 @@
         text-align: center;
       }
       img {
-        width: 150px;
-        height: 150px;
         border-radius: 10px;
       }
       .logo {
         text-align: center;
-        img {
-          width: 500px;
-        }
-      }
-      .clearfix {
-        clear: both; /* left 걸린 걸 초기화 */
       }
       .hitSongs {
         float: left;
@@ -32,6 +24,10 @@
         border-radius: 10px;
         margin-bottom: 20px;
         margin-left: 50px;
+        img {
+          width: 150px;
+          height: 150px;
+        }
       }
     </style>
   </head>
@@ -39,7 +35,13 @@
     <header>
       <div class="navigation" id="home">
         <h2>
-          <b><a href="http://127.0.0.1:5500/home.html">Who's SPYAIR</a></b>
+          <b>
+            <a href="http://127.0.0.1:5500/home.html">
+              <class ="logo">
+                <img src="images/logo.png" alt="SPYAIR Logo" />
+              </class>
+            </a>
+          </b>
         </h2>
       </div>
       <div class="navigation" id="songs">
@@ -62,11 +64,8 @@
       <main>
         <div id="title"><h2>홈</h2></div>
         <hr />
-        <div class="logo">
-          <img src="images/logo.png" alt="SPYAIR Logo" />
-        </div>
 
-        <h2>대표곡</h2>
+        <h2 style="text-align: center">대표곡</h2>
         <div class="hitSongs">
           <a href="http://127.0.0.1:5500/songs/someLikeItHeart.html">
             <h4>サムライハート(Some Like It Heart!!)</h4>
@@ -94,8 +93,8 @@
         <div class="clearfix"></div>
       </main>
 
-      <hr />
       <footer>
+        <hr />
         <a href="https://www.youtube.com/@spyairSMEJ">
           <img src="images/youtubeLogo.png" alt="YouTube" id="footericon" />
           <span class="link">SPYAIR Official YouTube Channel</span>
