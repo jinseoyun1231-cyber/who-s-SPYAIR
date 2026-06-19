@@ -58,3 +58,8 @@ footer {
 div {
   border-radius: 10px;
 }
+.poster {
+  width: 500px;
+  float: right;
+  margin-right: 240px;
+}
