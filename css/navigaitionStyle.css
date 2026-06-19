@@ -1,52 +1,60 @@
 .navigation {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  float: left;
-  color: #ffffff;
-  text-align: center;
+  /*네비게이션 바*/
+  padding-left: 20px; /*안 쪽 여백 왼쪽*/
+  padding-right: 20px; /*안 쪽 여백 오른쪽*/
+  padding-bottom: 20px; /*안 쪽 여백 밑에*/
+  float: left; /*옆으로 한 줄로 띄우기*/
+  text-align: center; /*박스 가운데에 글씨 배치*/
 }
 a {
-  color: #fff;
-  text-decoration: none;
+  /*링크 연결 된 글씨*/
+  color: #fff; /*링크 있는 글씨도 보라색, 파란색 말고 하얀색으로*/
+  text-decoration: none; /*글씨에 밑줄 없앰*/
 }
 body {
-  background-image: url("../images/spyair.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: Arial, sans-serif;
-  background-color: #000;
-  margin: 0;
-  padding: 20px;
-  color: #fff;
+  /*모든 내용에 공통적으로 적용*/
+  background-image: url("../images/spyair.jpg"); /*배경 이미지 설정*/
+  background-attachment: fixed; /*배경 움직이지 않게*/
+  background-repeat: no-repeat; /*배경 반복 안 함*/
+  background-size: cover; /*배경 사이즈 딱 맞게. 빈 공간 없게*/
+  font-family: Arial, sans-serif; /*폰트 정하기*/
+  background-color: #000; /*배경 이미지 못 볼 시 색*/
+  margin: 0; /*마진 X*/
+  padding: 20px; /*패딩*/
+  color: #fff; /*글씨 컬러 하얀색*/
 }
 .contentHome {
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
-  margin: 10px;
-  margin-top: 30px;
-  padding: 20px;
-  padding-top: 10px;
-  overflow: hidden;
-  width: 96%;
+  /*컨텐츠 배경 박스 설정*/
+  background-color: rgba(0, 0, 0, 0.8); /*배경 검정, 투명도 좀 줌*/
+  margin: 10px; /*여백 설정*/
+  padding: 20px; /*안 쪽 여백*/
+  padding-top: 10px; /*안 쪽 위 쪽 여백 조금만*/
+  overflow: hidden; /*넘치는 내용 숨기기*/
+  width: 96%; /*반응형으로, 길이 조절*/
+  box-shadow: 0px 0px 30px 1px #444; /*박스 그림자*/
 }
 .title {
+  /*각 페이지 제목*/
   margin-left: 30px;
   padding: 20px;
   width: 100px;
 }
 footer {
-  margin-left: 30px;
-  margin-top: 20px;
-  font-size: 10px;
+  /*푸터*/
+  margin-left: 30px; /*왼 쪽 여백*/
+  margin-top: 20px; /*위 쪽 여백*/
+  font-size: 10px; /*글씨 사이즈*/
 }
 .footericon {
-  width: 15px;
-  height: 15px;
-  border-radius: 5px;
-  margin-right: 5px;
+  /*푸터 이미지 아이콘*/
+  width: 15px; /*길이*/
+  height: 15px; /*높이*/
+  border-radius: 5px; /*둥근 모서리*/
+  margin-right: 5px; /*글씨랑 아이콘이랑 띄우기*/
 }
 .clearfix {
   clear: both; /* left 걸린 걸 초기화 */
+}
+div {
+  border-radius: 10px;
 }
