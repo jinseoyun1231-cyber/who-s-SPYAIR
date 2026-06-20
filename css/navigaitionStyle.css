@@ -63,3 +63,9 @@ div {
   float: right;
   margin-right: 240px;
 }
+img {
+  object-fit: cover;
+}
+a:hover {
+  text-decoration: underline;
+}
