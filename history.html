@@ -5,6 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Who's SPYAIR - History</title>
     <link rel="stylesheet" href="css/navigaitionStyle.css" />
+    <style>
+      main {
+        margin-left: 15%;
+        position: relative; /* 세로 선의 기준점이 됨 */
+        padding-left: 30px; /* 선과 글자 사이의 간격 */
+      }
+
+      /* 1. 쭉 내려오는 세로 선 만들기 */
+      main::before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        bottom: 5px;
+        left: 0;
+        width: 2px; /* 선 두께 */
+        background-color: #333;
+      }
+      p {
+        position: relative;
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-top: 25px;
+        margin-bottom: 5px;
+      } /*p 태그 옆에 동그라미*/
+
+      p::before {
+        content: "";
+        position: absolute;
+        left: -33px; /* 세로 선 위치에 딱 맞추기 위한 거리 조절 */
+        top: 5px; /* 동그라미의 높낮이 조절 */
+        width: 5px; /* 동그라미 가로 크기 */
+        height: 5px; /* 동그라미 세로 크기 */
+        border-radius: 50%; /* 완벽한 원으로 만들기 */
+        border: 2px solid #fff; /* 선과 겹칠 때 깔끔해 보이도록 흰색 테두리 */
+      }
+      ul {
+        list-style: none;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -30,9 +69,77 @@
       </div>
     </header>
     <div class="contentHome" id="concerts">
+      <div id="title"><h2>역사</h2></div>
+      <hr />
       <main>
-        <div id="title"><h2>역사</h2></div>
-        <hr />
+        <p>2005.06.09 SPYAIR 결성일</p>
+        <p>2009.04.12</p>
+        <ul>
+          <li>인디즈 전국 데뷔, Japanication 발매</li>
+        </ul>
+        <ul>
+          <li>
+            고등학교 시절부터 이어져 오던 밴드 ZAKI 해산 후 IKE , KENTA, MOMIKEN
+            3명에 UZ를 영입한 것으로부터 시작되었으며, <br />
+            2009년도에 전부터 서포트 멤버로서 같이 활동해 오던 ENZEL☆이 정식으로
+            합류하여 이케, 켄타, 모미켄, 유지, 엔젤 5인 체제로 활동
+          </li>
+        </ul>
+        <p>2010.06.27</p>
+        <ul>
+          <li>
+            인디즈 시절 마지막 목표였던 '야외 노상 라이브 1000명 동원' 달성
+          </li>
+        </ul>
+        <p>2010.08.11</p>
+        <ul>
+          <li>메이저 데뷔, LIAR 발매</li>
+        </ul>
+        <p>2011.01.19</p>
+
+        <ul>
+          <li>한국 서현역에서 Japanication MV 촬영</li>
+        </ul>
+        <p>2011.06.08</p>
+        <ul>
+          <li>은혼 17기 엔딩곡인 Some Like It Hot!! 발매, 성공의 시작</li>
+        </ul>
+        <p>2012.12.18</p>
+        <ul>
+          <li>
+            메이저 데뷔 2년 만에 꿈의 무대인 일본 부도칸(武道館) 첫 단독 공연
+            개최
+          </li>
+          <li>
+            2012.12.18 일본 무도관 공연으로 탈퇴하는 것을 표명 후 엔젤 탈퇴
+          </li>
+        </ul>
+        <p>2014.05.21</p>
+        <ul>
+          <li>보컬 IKE 성대플립, 급성 성대염으로 인한 탈퇴 선언</li>
+          <li>
+            2014.07.25 IKE의 성대플립 수술이 성공적으로 끝나 탈퇴는 유보,
+            SPYAIR의 해체는 없다는 공지 올라옴
+          </li>
+          <li>2014.12.30 SPYAIR LIVE 2014 ～復活～ 공연으로 활동 재개</li>
+        </ul>
+        <p>2022.03.31</p>
+        <ul>
+          <li>
+            2019년부터 앓고 있던 궤양성 대장염 재발로 인한 보컬 IKE의 탈퇴 공지
+          </li>
+        </ul>
+        <p>2023.04.14</p>
+        <ul>
+          <li>새 보컬 요스케의 합류와 동시에 공연 개최 발표</li>
+        </ul>
+        <p>2024.02.14</p>
+        <ul>
+          <li>
+            극장판 하이큐!! 쓰레기장의 결전 주제가 오렌지 발매 및 글로벌 메가
+            히트
+          </li>
+        </ul>
       </main>
       <hr />
       <footer>
