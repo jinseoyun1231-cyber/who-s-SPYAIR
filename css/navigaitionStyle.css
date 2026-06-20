@@ -1,15 +1,19 @@
 .navigation {
-  /*네비게이션 바*/
-  padding-left: 20px; /*안 쪽 여백 왼쪽*/
-  padding-right: 20px; /*안 쪽 여백 오른쪽*/
-  padding-bottom: 20px; /*안 쪽 여백 밑에*/
+  align-items: center; /* 수직(세로) 중앙 정렬!*/
+  padding: 0px 20px;
   float: left; /*옆으로 한 줄로 띄우기*/
   text-align: center; /*박스 가운데에 글씨 배치*/
+  margin-bottom: 15px;
 }
 a {
   /*링크 연결 된 글씨*/
   color: #fff; /*링크 있는 글씨도 보라색, 파란색 말고 하얀색으로*/
   text-decoration: none; /*글씨에 밑줄 없앰*/
+}
+.logo img {
+  text-align: center;
+  margin-top: 15px;
+  height: 40px;
 }
 body {
   /*모든 내용에 공통적으로 적용*/
