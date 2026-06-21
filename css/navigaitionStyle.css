@@ -1,20 +1,4 @@
-.navigation {
-  align-items: center; /* 수직(세로) 중앙 정렬!*/
-  padding: 0px 20px;
-  float: left; /*옆으로 한 줄로 띄우기*/
-  text-align: center; /*박스 가운데에 글씨 배치*/
-  margin-bottom: 15px;
-}
-a {
-  /*링크 연결 된 글씨*/
-  color: #fff; /*링크 있는 글씨도 보라색, 파란색 말고 하얀색으로*/
-  text-decoration: none; /*글씨에 밑줄 없앰*/
-}
-.logo img {
-  text-align: center;
-  margin-top: 15px;
-  height: 40px;
-}
+
 body {
   /*모든 내용에 공통적으로 적용*/
   background-image: url("../images/spyair.jpg"); /*배경 이미지 설정*/
@@ -26,6 +10,11 @@ body {
   margin: 0; /*마진 X*/
   padding: 20px; /*패딩*/
   color: #fff; /*글씨 컬러 하얀색*/
+}
+a {
+  /*링크 연결 된 글씨*/
+  color: #fff; /*링크 있는 글씨도 보라색, 파란색 말고 하얀색으로*/
+  text-decoration: none; /*글씨에 밑줄 없앰*/
 }
 .contentHome {
   /*컨텐츠 배경 박스 설정*/
@@ -43,19 +32,6 @@ body {
   padding: 20px;
   width: 100px;
 }
-footer {
-  /*푸터*/
-  margin-left: 30px; /*왼 쪽 여백*/
-  margin-top: 20px; /*위 쪽 여백*/
-  font-size: 10px; /*글씨 사이즈*/
-}
-.footericon {
-  /*푸터 이미지 아이콘*/
-  width: 15px; /*길이*/
-  height: 15px; /*높이*/
-  border-radius: 5px; /*둥근 모서리*/
-  margin-right: 5px; /*글씨랑 아이콘이랑 띄우기*/
-}
 .clearfix {
   clear: both; /* left 걸린 걸 초기화 */
 }
@@ -72,4 +48,15 @@ img {
 }
 a:hover {
   text-decoration: underline;
+}
+.headerTemplate {
+  width: 100%;          /* 가로 화면 꽉 채우기 */
+  height: 90px;
+  border: none;
+  overflow: hidden;     /* 스크롤바 생기는 거 방지 */
+}
+.footerTemplate {
+  width: 100%;          /* 가로 화면 꽉 채우기 */
+  border: none;
+  overflow: hidden;     /* 스크롤바 생기는 거 방지 */
 }

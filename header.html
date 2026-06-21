@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+    /*iframe 특유의 기본 여백을 없애주는 코드 */
+    body { margin: 0; padding: 0; 
+  font-family: Arial, sans-serif; /*폰트 정하기*/} 
+    .navigation {
+  align-items: center; /* 수직(세로) 중앙 정렬!*/
+  padding: 0px 20px;
+  float: left; /*옆으로 한 줄로 띄우기*/
+  text-align: center; /*박스 가운데에 글씨 배치*/
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  border: none;
+}
+a {
+  /*링크 연결 된 글씨*/
+  color: #fff; /*링크 있는 글씨도 보라색, 파란색 말고 하얀색으로*/
+  text-decoration: none; /*글씨에 밑줄 없앰*/
+}
+.logo img {
+  text-align: center;
+  height: 40px;
+}
+  </style>
+</head>
+<body>
+    <div class="navigation" id="home">
+      <h2><b><a href="http://127.0.0.1:5500/home.html" target="_top"><span class="logo"><img src="images/logo.png" alt="SPYAIR Logo" /></span></a></b></h2>
+    </div>
+    <div class="navigation" id="songs"><h2><a href="songs.html" target="_top">Songs</a></h2></div>
+    <div class="navigation" id="history"><h2><a href="history.html" target="_top">History</a></h2></div>
+    <div class="navigation" id="members"><h2><a href="members.html" target="_top">Members</a></h2></div>
+    <div class="navigation" id="concerts"><h2><a href="concerts.html" target="_top">Concerts</a></h2></div>
+    <div class="navigation" id="login"><h2><a href="login.html" target="_top">Login</a></h2></div>
+</body>
+</html>
