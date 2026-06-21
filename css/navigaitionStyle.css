@@ -47,7 +47,7 @@ img {
   object-fit: cover;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline; 
 }
 .headerTemplate {
   width: 100%;          /* 가로 화면 꽉 채우기 */
