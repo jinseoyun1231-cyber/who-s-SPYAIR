@@ -28,17 +28,18 @@
         font-size: 1.1rem;
         margin-top: 25px;
         margin-bottom: 5px;
-      } /*p 태그 옆에 동그라미*/
+      }
 
       p::before {
+        /*p 태그 옆에 동그라미*/
         content: "";
         position: absolute;
         left: -33px; /* 세로 선 위치에 딱 맞추기 위한 거리 조절 */
         top: 5px; /* 동그라미의 높낮이 조절 */
         width: 5px; /* 동그라미 가로 크기 */
         height: 5px; /* 동그라미 세로 크기 */
-        border-radius: 50%; /* 완벽한 원으로 만들기 */
-        border: 2px solid #fff; /* 선과 겹칠 때 깔끔해 보이도록 흰색 테두리 */
+        border-radius: 50%; /*원으로 만들기 */
+        border: 2px solid #fff; /* 흰색 테두리 */
       }
       ul {
         list-style: none;
@@ -47,7 +48,7 @@
   </head>
   <body>
     <header>
-    <iframe src="header.html" class="headerTemplate"></iframe>
+      <iframe src="header.html" class="headerTemplate"></iframe>
     </header>
     <div class="contentHome" id="concerts">
       <div id="title"><h2>역사</h2></div>
